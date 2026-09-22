@@ -15,5 +15,12 @@
 
     <name>servicehub-domain</name>
     <description>Core domain model and business rules of ServiceHub.</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
