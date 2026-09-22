@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: servicehub
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/servicehub
+    username: postgres
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+server:
+  port: 8080
